@@ -1,8 +1,8 @@
 {
-  "name": "coe-restaurant",
+  "name": "coe-blog",
   "version": "1.0.0",
   "private": true,
-  "description": "coe-restaurant",
+  "description": "coe-blog",
   "keywords": [
     "gatsby"
   ],
