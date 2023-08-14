@@ -10,6 +10,12 @@ export const Navbar = styled.div`
   justify-content: space-between;
   padding: 0 8rem;
   align-items: center;
+  @media screen and (max-width: 425px) {
+    padding: 0 4rem;
+  }
+  @media screen and (max-width: 375px) {
+    padding: 0 2rem;
+  }
 `;
 
 export const Logo = styled.div`
@@ -18,6 +24,12 @@ export const Logo = styled.div`
   cursor: pointer;
   &:hover {
     color: #ff8000;
+  }
+  @media screen and (max-width: 425px) {
+    font-size: 1.5rem;
+  }
+  @media screen and (max-width: 375px) {
+    font-size: 1rem;
   }
 `;
 
@@ -34,5 +46,11 @@ export const MenuItem = styled.a`
   text-decoration: none;
   &:hover {
     color: #ff8000;
+  }
+  @media screen and (max-width: 425px) {
+    font-size: 0.8rem;
+  }
+  @media screen and (max-width: 375px) {
+    font-size: 0.7rem;
   }
 `;

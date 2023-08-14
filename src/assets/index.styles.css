@@ -3,6 +3,12 @@
   justify-content: space-evenly;
   flex-wrap: wrap;
   padding: 2rem 20rem 5rem;
+  @media screen and (max-width: 1024px) {
+    padding: 2rem 10rem 5rem;
+  }
+  @media screen and (max-width: 768px) {
+    padding: 2rem 0rem 5rem;
+  }
 }
 
 .card {
@@ -72,6 +78,7 @@
   width: 40px;
   height: 40px;
   margin-right: 10px;
+  object-fit: cover;
 }
 .user-info h5 {
   margin: 0;
